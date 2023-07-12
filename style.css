@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hero-section, #hot-deal{
+    background: #FCEEF0;
+    padding-top : 80px;
+}
+.hero-left{
+    padding-right: 100px;
+    margin-top: 66px;
+}
+.hero-left h1{
+    font-size: 50px;
+}
+.hero-left p{
+    padding : 20px 0;
+    color : #888888;
+    font-size: 16px;
+    line-height: 25px;
+}
+.btn{
+    background : #E45472;
+    color : #fff;
+    padding : 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.hero-right{
+    overflow: hidden;
+    text-align: right;
+}
+.hero-right img{
+    width: 70%;
+}
+
+
+
+#featured-image{
+    padding: 80px 0;
+}
+.featured-top{
+    text-align: center;
+}
+.featured-top h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.featured-top p {
+    font-size: 18px;
+    color: #888888;
+} */
+
+
+
+/* featured flower section*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+.flower-h2{
+    font-size: 45px ;
+    margin-top: 106px;
+    text-align: center;
+}
+
+.flower-info{
+    margin-top: 11px ;
+    margin-bottom: 30px ;
+    text-align: center;
+}
+
+
+.flower-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.flowers{
+    height: 550px;
+    width: 420px;
+    border-radius: 300px 300px 0px 0px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.flowers img {
+    width: 66%;
+    height: 336px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px;
+    object-fit: fill;
+}
+.flowers h3{
+    color : #060404;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#img1{
+    background-color:rgba(167, 33, 98, 0.1);
+}
+
+#img2{
+    background-color: rgba(5, 151, 160, 0.1);
+}
+
+#img3{
+    background-color:rgba(71, 125, 17, 0.15);
+}
+
+
+
+
+/* SERVICE SECTION */
+
+
+
+#services{
+    margin-bottom: 100px;
+}
+.service-wrapper{
+    background: rgba(229, 84, 115, 0.05) ;
+    padding : 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.service-box {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-box img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 18px;
+    color: #666666;
+    font-weight: 400;
+}
+
+#hot-deal{
+    padding-bottom : 80px;
+}
+#hot-deal .hero-left {
+    margin-top: 70px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+#hot-deal .hero-right img {
+    width: 250px;
+}
+.text-color{
+    color :#E34A6A;
+}
+#hot-deal .hero-left h1 {
+    font-size: 41px;
+}
+
+
+
+
+/* INSTAGRAM */
+
+.instaflowers{
+    display: flex;
+    /* column-gap: 1px; */
+    /* align-items: center; */
+    justify-content: space-evenly; 
+    
+}
+
+
+.instaflowers img {
+    width: 266px;
+    height: 300px;
+}
+
+
+
+
+/* LATEST DEAL SECTION  */
+
+#get-latest-deal{
+    background-image: url(flower-asset/Rectangle-9.png);
+    background-repeat: no-repeat;
+    width: 700;
+    height: 500px;
+    margin: 40px 60px ;
+}
+
+.deal-heading{
+    position:  relative; top:140px;
+}
+
+.input-section{
+    /* margin:180px; */
+    position: relative; top: 160px;
+    width: 300px;
+    height: 30px;
+}
+
+#button-sub{
+    position: relative; top: 160px;
+}
+
+
+.deal-title{
+    font-size: 35px;
+}
+  
+.deal-info{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER section */
+
+footer{
+    background-color: #101010;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+
+
+.footer-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 14px auto;
+
+}
+
+#p2{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+#shop{
+    color: #E55473;
+}
